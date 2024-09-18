@@ -1,0 +1,39 @@
+.valores {
+  display: flex;
+  flex-direction: column; /* Coloca subtitulo y cuadro uno debajo del otro */
+  align-items: center; /* Centra ambos en el eje horizontal */
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 15px;
+  margin-bottom: 10px; /* Espacio entre subtítulo y cuadro */
+  width: 60%; /* Mismo ancho que el cuadro */
+  max-width: 600px; /* Ancho máximo */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+#input-cuadro {
+  border: 2px solid #000; /* Borde definido */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px; /* Espacio dentro del cuadro */
+  background-color: #f0f0f0; /* Color de fondo */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  font-weight: normal; /* Reduce el peso de la fuente dentro del cuadro */
+  font-size: 14px; /* Tamaño de letra más pequeño para menor presencia */
+  color: #777; /* Color más claro que el subtítulo */
+  width: 60%; /* Aumenta el ancho dependiendo el ancho de la ventana */
+  max-width: 600px; /* Limita el ancho máximo del cuadro */
+  text-align: left; /* Alinea el texto a la izquierda */
+  position: relative; /* Posición relativa para los elementos internos */
+  transition: transform 0.3s ease; /* Animación suave al hacer hover */
+}
+
+
+.titulo {
+  margin-top: 40px; /* deja un espacio arriba*/
+  font-size: 20px; /* tamaño de letra */
+}
+
+
+
